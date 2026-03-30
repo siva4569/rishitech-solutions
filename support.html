@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Spin Master Ultra | Rishitech Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .policy-hero {
+            background: var(--gradient-1);
+            padding: 60px 0 60px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .policy-hero h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+        }
+
+        .policy-hero p {
+            font-size: 1rem;
+            opacity: 0.85;
+        }
+
+        .policy-content {
+            padding: 60px 0 80px;
+            background: var(--bg-light);
+        }
+
+        .policy-card {
+            background: var(--bg-white);
+            border-radius: 16px;
+            box-shadow: var(--shadow-lg);
+            padding: 48px 56px;
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        .policy-card .effective-date {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea22, #764ba222);
+            color: var(--primary-dark);
+            font-weight: 600;
+            font-size: 0.875rem;
+            padding: 6px 16px;
+            border-radius: 20px;
+            margin-bottom: 28px;
+            border: 1px solid #667eea33;
+        }
+
+        .policy-card .intro {
+            font-size: 1.05rem;
+            color: var(--text-light);
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .policy-section {
+            margin-bottom: 36px;
+        }
+
+        .policy-section h2 {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .policy-section h2 .section-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: var(--gradient-1);
+            color: #fff;
+            font-size: 0.8rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .policy-section p,
+        .policy-section li {
+            color: var(--text-light);
+            line-height: 1.8;
+            font-size: 0.975rem;
+        }
+
+        .policy-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .policy-section ul li {
+            padding-left: 0;
+        }
+
+        .data-type {
+            background: var(--bg-light);
+            border-left: 3px solid var(--primary-color);
+            border-radius: 0 8px 8px 0;
+            padding: 12px 16px;
+            margin-bottom: 10px;
+        }
+
+        .data-type strong {
+            display: block;
+            color: var(--text-dark);
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .data-type span {
+            font-size: 0.93rem;
+            color: var(--text-light);
+        }
+
+        .third-party-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 4px;
+        }
+
+        .third-party-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .third-party-list li i {
+            color: var(--primary-color);
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        .check-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 4px;
+        }
+
+        .check-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .check-list li i {
+            color: #10b981;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #667eea11, #764ba211);
+            border: 1px solid #667eea33;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-top: 8px;
+        }
+
+        .contact-box p {
+            margin-bottom: 6px;
+        }
+
+        .contact-box a {
+            color: var(--primary-color);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .policy-card {
+                padding: 32px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="policy-hero">
+        <div class="container">
+            <h1>Support</h1>
+            <p>Spin Master Ultra &mdash; Official Support</p>
+        </div>
+    </section>
+
+    <section class="policy-content">
+        <div class="container">
+            <div class="policy-card">
+                <p class="intro">
+                    Welcome to the official support page for Spin Master Ultra.
+                </p>
+
+                <div class="policy-section">
+                    <h2><span class="section-number">1</span> Support Overview</h2>
+                    <p>
+                        If you need help with rewards, events, notifications, or app performance,
+                        contact us and we will assist you as quickly as possible.
+                    </p>
+                </div>
+
+                <div class="policy-section">
+                    <h2><span class="section-number">2</span> Contact Support</h2>
+                    <div class="contact-box">
+                        <p><i class="fas fa-envelope" style="color:var(--primary-color);margin-right:8px;"></i><strong>Email:</strong> <a href="mailto:info.rishitechsolutions@gmail.com">info.rishitechsolutions@gmail.com</a></p>
+                        <p><i class="fas fa-clock" style="color:var(--primary-color);margin-right:8px;"></i><strong>Response time:</strong> Within 24-48 hours (business days)</p>
+                    </div>
+                </div>
+
+                <div class="policy-section">
+                    <h2><span class="section-number">3</span> Include These Details</h2>
+                    <p style="margin-bottom:12px;">When contacting support, please include:</p>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> Your device model</li>
+                        <li><i class="fas fa-check-circle"></i> iOS version</li>
+                        <li><i class="fas fa-check-circle"></i> App version</li>
+                        <li><i class="fas fa-check-circle"></i> A short description of the issue</li>
+                        <li><i class="fas fa-check-circle"></i> Screenshots (if available)</li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2><span class="section-number">4</span> Frequently Asked Questions</h2>
+
+                    <div class="data-type">
+                        <strong>1. I did not receive my reward. What should I do?</strong>
+                        <span>Please restart the app and check your rewards screen again. If the issue continues, contact support with the date/time and reward details.</span>
+                    </div>
+
+                    <div class="data-type">
+                        <strong>2. Notifications are not working.</strong>
+                        <span>Make sure notifications are enabled in Spin Master Ultra app settings and iPhone Settings &gt; Notifications &gt; Spin Master Ultra.</span>
+                    </div>
+
+                    <div class="data-type">
+                        <strong>3. The app is slow or freezes.</strong>
+                        <span>Try closing and reopening the app. Ensure your iOS version is up to date. If the problem continues, send device details to support.</span>
+                    </div>
+
+                    <div class="data-type">
+                        <strong>4. Events are not showing correctly.</strong>
+                        <span>Pull to refresh or reopen the app. Event data may update based on availability and timing.</span>
+                    </div>
+
+                    <div class="data-type">
+                        <strong>5. How do I report a bug?</strong>
+                        <span>
+                            Send an email to <a href="mailto:info.rishitechsolutions@gmail.com">info.rishitechsolutions@gmail.com</a> with:
+                            Subject: Bug Report, steps to reproduce, screenshot/screen recording, and device plus iOS version.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="policy-section">
+                    <h2><span class="section-number">5</span> Privacy</h2>
+                    <ul class="third-party-list">
+                        <li><i class="fas fa-link"></i><span><strong>Privacy Policy:</strong> <a href="https://rishitechsolutions.in/privacy-policy">https://rishitechsolutions.in/privacy-policy</a></span></li>
+                        <li><i class="fas fa-link"></i><span><strong>Terms of Use:</strong> <a href="terms.html">https://rishitechsolutions.in/terms</a></span></li>
+                    </ul>
+                </div>
+
+                <div class="policy-section">
+                    <h2><span class="section-number">6</span> Company Information</h2>
+                    <div class="contact-box">
+                        <p><i class="fas fa-mobile-alt" style="color:var(--primary-color);margin-right:8px;"></i><strong>App:</strong> Spin Master Ultra</p>
+                        <p><i class="fas fa-building" style="color:var(--primary-color);margin-right:8px;"></i><strong>Company:</strong> Rishitech Solutions</p>
+                    </div>
+                </div>
+
+                <div class="policy-section">
+                    <h2><span class="section-number">7</span> Support URL</h2>
+                    <p>
+                        Use this as your Support URL in App Store Connect after publishing,
+                        for example: <a href="https://rishitechsolutions.in/support">https://rishitechsolutions.in/support</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>

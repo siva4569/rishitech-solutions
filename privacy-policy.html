@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Spin Master Ultra | Rishitech Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .policy-hero {
+            background: var(--gradient-1);
+            padding: 60px 0 60px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .policy-hero h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+        }
+
+        .policy-hero p {
+            font-size: 1rem;
+            opacity: 0.85;
+        }
+
+        .policy-content {
+            padding: 60px 0 80px;
+            background: var(--bg-light);
+        }
+
+        .policy-card {
+            background: var(--bg-white);
+            border-radius: 16px;
+            box-shadow: var(--shadow-lg);
+            padding: 48px 56px;
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        .policy-card .effective-date {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea22, #764ba222);
+            color: var(--primary-dark);
+            font-weight: 600;
+            font-size: 0.875rem;
+            padding: 6px 16px;
+            border-radius: 20px;
+            margin-bottom: 28px;
+            border: 1px solid #667eea33;
+        }
+
+        .policy-card .intro {
+            font-size: 1.05rem;
+            color: var(--text-light);
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .policy-section {
+            margin-bottom: 36px;
+        }
+
+        .policy-section h2 {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .policy-section h2 .section-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: var(--gradient-1);
+            color: #fff;
+            font-size: 0.8rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .policy-section p,
+        .policy-section li {
+            color: var(--text-light);
+            line-height: 1.8;
+            font-size: 0.975rem;
+        }
+
+        .policy-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .policy-section ul li {
+            padding-left: 0;
+        }
+
+        .data-type {
+            background: var(--bg-light);
+            border-left: 3px solid var(--primary-color);
+            border-radius: 0 8px 8px 0;
+            padding: 12px 16px;
+            margin-bottom: 10px;
+        }
+
+        .data-type strong {
+            display: block;
+            color: var(--text-dark);
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .data-type span {
+            font-size: 0.93rem;
+            color: var(--text-light);
+        }
+
+        .third-party-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 4px;
+        }
+
+        .third-party-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .third-party-list li i {
+            color: var(--primary-color);
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        .check-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 4px;
+        }
+
+        .check-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .check-list li i {
+            color: #10b981;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #667eea11, #764ba211);
+            border: 1px solid #667eea33;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-top: 8px;
+        }
+
+        .contact-box p {
+            margin-bottom: 6px;
+        }
+
+        .contact-box a {
+            color: var(--primary-color);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .policy-card {
+                padding: 32px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header" style="display:none;">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <img src="assets/rishitech solutions logo.png" alt="Rishitech Solutions" class="logo-image">
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html#home" class="nav-link">Home</a></li>
+                        <li><a href="index.html#services" class="nav-link">Services</a></li>
+                        <li><a href="index.html#about" class="nav-link">About</a></li>
+                        <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button class="nav-toggle" id="navToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="policy-hero">
+        <div class="container">
+            <h1>Privacy Policy</h1>
+            <p>Spin Master Ultra &mdash; Rishitech Solutions</p>
+        </div>
+    </section>
+
+    <!-- Policy Content -->
+    <section class="policy-content">
+        <div class="container">
+            <div class="policy-card">
+
+                <span class="effective-date"><i class="fas fa-calendar-alt" style="margin-right:6px;"></i>Effective Date: March 30, 2026</span>
+
+                <p class="intro">
+                    Spin Master Ultra (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) respects your privacy. This Privacy Policy explains how we collect, use, and protect information when you use our mobile application.
+                </p>
+
+                <!-- Section 1 -->
+                <div class="policy-section">
+                    <h2><span class="section-number">1</span> Information We Collect</h2>
+                    <p style="margin-bottom:16px;">We may collect the following types of information:</p>
+
+                    <div class="data-type">
+                        <strong>Device and Technical Information</strong>
+                        <span>Device type, OS version, app version, language, and crash/performance data.</span>
+                    </div>
+                    <div class="data-type">
+                        <strong>Usage Information</strong>
+                        <span>Gameplay events (for example: spins, rewards, screen views, feature usage) to improve app performance and user experience.</span>
+                    </div>
+                    <div class="data-type">
+                        <strong>Advertising Data</strong>
+                        <span>Advertising identifiers (such as IDFA/GAID where applicable), ad interaction data (impressions/clicks), and approximate location derived from IP for ad delivery and fraud prevention.</span>
+                    </div>
+                    <div class="data-type">
+                        <strong>Push Notification Data</strong>
+                        <span>If enabled, push token and notification interaction data to send app updates, reminders, and reward notifications.</span>
+                    </div>
+                    <div class="data-type">
+                        <strong>User-Provided Information</strong>
+                        <span>Any information you provide directly to us (for example via support contact).</span>
+                    </div>
+                </div>
+
+                <!-- Section 2 -->
+                <div class="policy-section">
+                    <h2><span class="section-number">2</span> How We Use Information</h2>
+                    <p style="margin-bottom:12px;">We use collected information to:</p>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> Provide and maintain app features.</li>
+                        <li><i class="fas fa-check-circle"></i> Improve gameplay, rewards systems, and app stability.</li>
+                        <li><i class="fas fa-check-circle"></i> Show relevant ads and measure ad performance.</li>
+                        <li><i class="fas fa-check-circle"></i> Send push notifications (if permitted by you).</li>
+                        <li><i class="fas fa-check-circle"></i> Detect abuse, fraud, and technical issues.</li>
+                        <li><i class="fas fa-check-circle"></i> Comply with legal obligations.</li>
+                    </ul>
+                </div>
+
+                <!-- Section 3 -->
+                <div class="policy-section">
+                    <h2><span class="section-number">3</span> Third-Party Services</h2>
+                    <p style="margin-bottom:12px;">We may use trusted third-party services that process data on our behalf, including:</p>
+                    <ul class="third-party-list">
+                        <li><i class="fas fa-cube"></i><span><strong>Firebase</strong> &mdash; analytics, crash reporting, backend services</span></li>
+                        <li><i class="fas fa-cube"></i><span><strong>Google Mobile Ads / Ad Networks</strong> &mdash; ad delivery and measurement</span></li>
+                        <li><i class="fas fa-cube"></i><span><strong>OneSignal</strong> &mdash; push notifications</span></li>
+                    </ul>
+                    <p style="margin-top:14px;">These providers may collect and process data under their own privacy policies.</p>
+                </div>
+
+                <!-- Section 4 -->
+                <div class="policy-section">
+                    <h2><span class="section-number">4</span> Children&rsquo;s Privacy</h2>
+                    <p>Spin Master Ultra is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal information, contact us and we will take appropriate steps to delete it.</p>
+                </div>
+
+                <!-- Section 5 -->
+                <div class="policy-section">
+                    <h2><span class="section-number">5</span> Data Sharing</h2>
+                    <ul class="check-list">
+                        <li><i class="fas fa-times-circle" style="color:#ef4444;"></i> We do not sell personal data.</li>
+                        <li><i class="fas fa-check-circle"></i> We may share limited data with service providers for app functionality, analytics, ads, and legal compliance.</li>
+                    </ul>
+                </div>
+
+                <!-- Section 6 -->
+                <div class="policy-section">
+                    <h2><span class="section-number">6</span> Data Retention</h2>
+                    <p>We retain information only as long as necessary for the purposes described in this policy, unless a longer retention period is required by law.</p>
+                </div>
+
+                <!-- Section 7 -->
+                <div class="policy-section">
+                    <h2><span class="section-number">7</span> Your Choices</h2>
+                    <p style="margin-bottom:12px;">Depending on your device/region, you may:</p>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> Disable push notifications in device settings.</li>
+                        <li><i class="fas fa-check-circle"></i> Reset or limit ad tracking via device privacy settings.</li>
+                        <li><i class="fas fa-check-circle"></i> Request deletion of data associated with your use, where applicable by law.</li>
+                    </ul>
+                </div>
+
+                <!-- Section 8 -->
+                <div class="policy-section">
+                    <h2><span class="section-number">8</span> Security</h2>
+                    <p>We use reasonable administrative and technical safeguards to protect information. However, no method of transmission or storage is 100% secure.</p>
+                </div>
+
+                <!-- Section 9 -->
+                <div class="policy-section">
+                    <h2><span class="section-number">9</span> International Transfers</h2>
+                    <p>Your information may be processed in countries other than your own, where our service providers operate.</p>
+                </div>
+
+                <!-- Section 10 -->
+                <div class="policy-section">
+                    <h2><span class="section-number">10</span> Changes to This Policy</h2>
+                    <p>We may update this Privacy Policy from time to time. Updates will be posted at this URL with a new effective date.</p>
+                </div>
+
+                <!-- Section 11 -->
+                <div class="policy-section">
+                    <h2><span class="section-number">11</span> Contact Us</h2>
+                    <p style="margin-bottom:12px;">If you have questions about this Privacy Policy or your data, contact us at:</p>
+                    <div class="contact-box">
+                        <p><i class="fas fa-envelope" style="color:var(--primary-color);margin-right:8px;"></i><strong>Email:</strong> <a href="mailto:info.rishitechsolutions@gmail.com">info.rishitechsolutions@gmail.com</a></p>
+                        <p><i class="fas fa-mobile-alt" style="color:var(--primary-color);margin-right:8px;"></i><strong>App:</strong> Spin Master Ultra</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Mobile nav toggle
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
